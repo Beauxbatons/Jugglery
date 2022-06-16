@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{267d6a59-369b-43e2-be02-d69412623f70}">
+		<property name="assetPath">
+			<value>water_soul.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5600000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7ee7e925-1e77-42dd-bada-6ad898c706c5}</destination>
+		</relationship>
+	</object>
+</objects>

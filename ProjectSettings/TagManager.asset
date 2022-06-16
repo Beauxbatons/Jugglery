@@ -3,7 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Obstacle
+  - PowerUp
+  - WizardBody
+  - Die
+  - Ground
+  - RadialMenu
+  - LadderGround
+  - Key
+  - Door
+  - Undefined
+  - clone
+  - Flower
+  - player
+  - FlowerHead
+  - Fire
+  - Water
+  - Button1
+  - Button2
   layers:
   - Default
   - TransparentFX
@@ -13,14 +31,14 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - character
+  - ground
+  - tree
+  - log
+  - clone1
+  - clone2
+  - PostProcessingLayer
+  - ladder
   - 
   - 
   - 
@@ -40,4 +58,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: wizard
+    uniqueID: 3691799101
+    locked: 0
+  - name: EarthClone
+    uniqueID: 1485596391
+    locked: 0
+  - name: FireClone
+    uniqueID: 3463816073
+    locked: 0
+  - name: AirClone
+    uniqueID: 1618934763
+    locked: 0
+  - name: WaterClone
+    uniqueID: 2668169247
     locked: 0

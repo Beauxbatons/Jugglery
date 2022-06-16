@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7701317275506177862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7701317275506177860}
+  - component: {fileID: 7701317275506177861}
+  - component: {fileID: 7701317275506177859}
+  - component: {fileID: 3379345406580240141}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7701317275506177860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701317275506177862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6931291, y: 0.36969876, z: -5.749135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7701317275506177861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701317275506177862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40e01147369e7e4795dc7d8febe1c52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 512
+  facingRight: 1
+  jump: 0
+  Key: 0
+  speed: 5
+  jumpForce: 800
+  c1RB: {fileID: 0}
+  MainCharacterAnimator: {fileID: 0}
+  grounded: 0
+  isClimbingUP: 0
+  isClimbindDown: 0
+  Water: 0
+  Fire: 0
+  Earth: 0
+  Air: 0
+  WaterClone: {fileID: 6435746956350454496, guid: 1df58f71cc0710a468c21b30f50081c3,
+    type: 3}
+  FireClone: {fileID: 3820502916984076410, guid: 7b5fc058c4a27c849a8da4f6fd9c275d,
+    type: 3}
+  EarthClone: {fileID: 3038465220271915978, guid: ad6b1e974d050ef4a866bcb4d34743d3,
+    type: 3}
+  AirClone: {fileID: 8745627538295703208, guid: a8d02d1ddbba34f4fac5956c8433a948,
+    type: 3}
+  CloneLifeTime: 3
+  ExtendTimeObject: 1
+  clone: 0
+  slider: {fileID: 0}
+  SliderMaxValue: 3.019998
+  RadialMenu: {fileID: 1478155702772456788, guid: e2305ab1c2b0b6445bf6862dace7021b,
+    type: 3}
+  RadialMenuCanvas: {fileID: 0}
+  RadialMenuOpen: 0
+  RadialMenuOpened: 0
+  FireFill: {fileID: 21300000, guid: f619f1af5c53b4106a49307bbb7e62a3, type: 3}
+  WaterFill: {fileID: 21300000, guid: 62b940931c2384b7da6be4a8ee219874, type: 3}
+  EarthFill: {fileID: 21300000, guid: 035ccad7ff9c94bd2bc1940439034e41, type: 3}
+  AirFill: {fileID: 21300000, guid: 0b350c22c800b4422b21d15781200a00, type: 3}
+  SpawnWay: {x: -1, y: 0}
+  WalkEvent: event:/walk_sfx
+  CastEvent: event:/Magic_Chime
+--- !u!114 &7701317275506177859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701317275506177862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d72387374e82ab4aa46b0819dd961e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemsToPool:
+  - objectToPool: {fileID: 6867310601682356814, guid: d3541220611e48948b41b1ab58596e5a,
+      type: 3}
+    amountToPool: 20
+    shouldExpand: 1
+  pooledObjects: []
+--- !u!114 &3379345406580240141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7701317275506177862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Final_project_gameplay_music1
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

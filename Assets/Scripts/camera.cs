@@ -4,14 +4,35 @@ using UnityEngine;
 
 public class camera : MonoBehaviour
 {
-    public GameObject Player;
-    private Vector3 distance;
+    public Transform target;
+    public float smoothing = 5f;
+    public Vector3 offset;
+
     void Start()
     {
-        distance = transform.position - Player.transform.position;
+        offset = transform.position - target.position;
     }
-    void LateUpdate()
+
+    void Update()
     {
-        transform.position = Player.transform.position + distance;
+        GameObject Game = GameObject.Find("GameManager");
+        Game MainScript = Game.GetComponent<Game>();
+
+        Vector3 targetCamPos = target.position + offset;
+        //Follow only in X Position..
+        transform.position = Vector3.Lerp(new Vector3(transform.position.x, transform.position.y, -2f),
+        new Vector3(targetCamPos.x, transform.position.y, -2f),
+        smoothing * Time.fixedDeltaTime);
+        if(MainScript.grounded == false && MainScript.isClimbingUP == true)
+        {
+            transform.position = target.position + offset;
+        }
+        if(MainScript.jump == false && MainScript.grounded == true && MainScript.isClimbingUP == false)
+        {
+            if (target.transform.position.y != gameObject.transform.position.y)
+            {
+                transform.position = target.position + offset;
+            }
+        }
     }
 }

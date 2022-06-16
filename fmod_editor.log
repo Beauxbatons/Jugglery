@@ -1,0 +1,371 @@
+[LOG] System::create                           : Header version = 2.00.06. Current version = 2.00.06.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20006 (106220), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 000001D12C1E8CF8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D19DCB00C8 : node = 000001D1C34E1880
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D19DCB00C8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1C34E1990
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D19DCB00C8
+[LOG] SoundI::getSubSound                      : sound 000001D19DCB00C8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D19DCB00C8)
+[LOG] SoundI::release                          :     walk_sfx (000001D1498ABD78)
+[LOG] SoundI::release                          :     walk_sfx (000001D16AC98F78)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D22DAA6058 : node = 000001D1DCEF6470
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D22DAA6058
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1DCEF6580
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D22DAA6058
+[LOG] SoundI::getSubSound                      : sound 000001D22DAA6058.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D14EECFDD8 : node = 000001D1DBF898D0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D14EECFDD8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1DBF899E0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D14EECFDD8
+[LOG] SoundI::release                          : walk_sfx (000001D22DAA6058)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0428)
+[LOG] SoundI::getSubSound                      : sound 000001D14EECFDD8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D14EECFDD8)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF33C8)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB05D8)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D165E530A8 : node = 000001D1E107F620
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D165E530A8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1E107F730
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D165E530A8
+[LOG] SoundI::getSubSound                      : sound 000001D165E530A8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D165E530A8)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0278)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D165E53258 : node = 000001D1E107F3A0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D165E53258
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1E107F4B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D165E53258
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D165E53408 : node = 000001D1E107F760
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] SoundI::release                          : walk_sfx (000001D165E53258)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB00C8)
+[LOG] AsyncThread::threadFunc                  :     Starting Asynchronous operation on sound 000001D165E53408
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1E107F870
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D165E53408
+[LOG] SoundI::getSubSound                      : sound 000001D165E53408.  Subsound index 0 / 1
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D22DAA5EA8 : node = 000001D1DCEF66F0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D22DAA5EA8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1DCEF6800
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D22DAA5EA8
+[LOG] SoundI::release                          : walk_sfx (000001D22DAA5EA8)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF33C8)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB00C8)
+[LOG] SoundI::release                          : walk_sfx (000001D165E53408)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0428)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000BEC27BEF8C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCDB9480A0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCDB948070
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCDB948170
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCDB948230
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D22C101688
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Magic_Chime', format=2, channels=2, frequency=48000, lengthbytes=113216, lengthpcm=471457, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.069580.
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D1B4DA6348 : node = 000001D1B00ED0C0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D1B4DA6348
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1B00ED1D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D1B4DA6348
+[LOG] SoundI::getSubSound                      : sound 000001D1B4DA6348.  Subsound index 0 / 1
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000BEC27BEF8C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCDB9480A0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCDB948070
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCDB948170
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCDB948230
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D1DC1111A8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='water_soul', format=2, channels=2, frequency=48000, lengthbytes=32896, lengthpcm=122880, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.983551.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D16AC98558 : node = 000001D16F869E30
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D16AC98558
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D16F869F40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D16AC98558
+[LOG] SoundI::getSubSound                      : sound 000001D16AC98558.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D16AC98558)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF33C8)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0428)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D2D39AD248 : node = 000001D1CBDD60A0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D2D39AD248
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1CBDD61B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D2D39AD248
+[LOG] SoundI::getSubSound                      : sound 000001D2D39AD248.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D2D39AD248)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF33C8)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0428)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D1DFCF14E8 : node = 000001D2BF3CD0A0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D1DFCF14E8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D2BF3CD1B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Final_project_gameplay_music', format=2, channels=2, frequency=48000, lengthbytes=196352, lengthpcm=801392, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.988500.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D1DFCF14E8
+[LOG] SoundI::getSubSound                      : sound 000001D1DFCF14E8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Final_project_gameplay_music (000001D16AC997E8)
+[LOG] SoundI::release                          :     Final_project_gameplay_music (000001D1498ACA78)
+[LOG] SoundI::release                          :     Final_project_gameplay_music (000001D16AC98A68)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D1C3B493F8 : node = 000001D12C9FA980
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D1C3B493F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D12C9FAA90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D1C3B493F8
+[LOG] SoundI::getSubSound                      : sound 000001D1C3B493F8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D1B4DA6348)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0278)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SoundI::release                          : walk_sfx (000001D1C3B493F8)
+[LOG] SoundI::release                          :     walk_sfx (000001D28F6E3398)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0428)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D14EECFDD8 : node = 000001D1DBF89B50
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D14EECFDD8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1DBF89C60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D14EECFDD8
+[LOG] SoundI::getSubSound                      : sound 000001D14EECFDD8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : walk_sfx (000001D14EECFDD8)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB0278)
+[LOG] SystemI::createSound                     : filename = Assets\Bender_of_the_universe\Build\Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 000001D22DAA6208 : node = 000001D1DCEF66F0
+[LOG] SystemI::createSound                     : add node to async list : head = 000001D1498AB368.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001D22DAA6208
+[LOG] SystemI::createSoundInternal             :     Create name='Assets\Bender_of_the_universe\Build\Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001D1DCEF6800
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='walk_sfx', format=2, channels=2, frequency=48000, lengthbytes=124352, lengthpcm=584306, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.193878.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001D22DAA6208
+[LOG] SoundI::getSubSound                      : sound 000001D22DAA6208.  Subsound index 0 / 1
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1372832
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 12288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000BEC27BEF8C
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFCDB9480A0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFCDB948070
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFCDB948170
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFCDB948230
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001D30E983548
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='key', format=2, channels=2, frequency=48000, lengthbytes=83104, lengthpcm=324754, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.959686.
+[LOG] SoundI::release                          : walk_sfx (000001D22DAA6208)
+[LOG] SoundI::release                          :     walk_sfx (000001D142FF3568)
+[LOG] SoundI::release                          :     walk_sfx (000001D19DCB05D8)
+[LOG] SoundI::release                          : Final_project_gameplay_music (000001D1DFCF14E8)
+[LOG] SoundI::release                          :     Final_project_gameplay_music (000001D142FF33C8)
+[LOG] SoundI::release                          :     Final_project_gameplay_music (000001D19DCB00C8)
+[LOG] SoundI::release                          :  (000001D1848BD698)
+[LOG] SoundI::release                          :     Magic_Chime (000001D149BE49C8)
+[LOG] SoundI::release                          :  (000001D144020948)
+[LOG] SoundI::release                          :     water_soul (000001D1662B22A8)
+[LOG] SoundI::release                          :  (000001D143EFA6B8)
+[LOG] SoundI::release                          :     key (000001D1E0863F88)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] Manager::readBank                        : fileversion = 123, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
